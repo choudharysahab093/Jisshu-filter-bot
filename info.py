@@ -15,14 +15,14 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'skbot')
 API_ID = int(environ.get('API_ID', '25566866'))
 API_HASH = environ.get('API_HASH', 'a0a525af021cc2211ac46cffd86f6d82')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7727691526:AAFDKHrnnR9JImlqPmmDBbMFJu7RLbTHH_A')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7745762451:AAGE37KmSTK-SkTCJc-Dhoc-BxIwnMvpSWU')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6323352188').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7977862043').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002170061354'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/moviegroup257')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002157838063').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002282451650')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/moviegroup255')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002157838063  -1002170061354').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hyyysuhail:i11y3Qdn1UwRimtp@suhailsc.dhei0.mongodb.net/?retryWrites=true&w=majority&appName=Suhailsc")
