@@ -44,13 +44,13 @@ files = glob.glob(ppath)
 JisshuBot.start()
 loop = asyncio.get_event_loop()
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1002157838063
 
 async def Jisshu_start():
     print('\n')
-    print('Initalizing Jisshu Filter Bot')
-    bot_info = await JisshuBot.get_me()
-    JisshuBot.username = bot_info.username
+    print('Initalizing suhail bot')
+    bot_info = await hyysuhail.get_me()
+    hyysuhail.username = bot_info.username
     await initialize_clients()
     for name in files:
         with open(name) as a:
